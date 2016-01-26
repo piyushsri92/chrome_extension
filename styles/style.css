@@ -1,0 +1,9 @@
+.container{
+			width: 400px;
+			height: 50%;
+			color:darkslategrey;
+			//background-color: darkslategrey;
+			font-weight: bold;
+			font-family: sans-serif;
+			font-style: italic;
+}

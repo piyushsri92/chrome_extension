@@ -1,0 +1,1 @@
+angular.module('appModule',['shared.services','datalist.controller']);

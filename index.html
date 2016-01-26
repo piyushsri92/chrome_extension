@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" ng-app="demoApp">
+<head>
+  <meta charset="UTF-8">   
+  <meta name="description" content="Chrome Extension to show daily quotes">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Piyush Srivastava">
+ 
+     <script src="modules/scripts/angular.min.js"></script>
+     <script src="modules/scripts/angular-route.min.js"></script>
+
+     <link rel="stylesheet" type="text/css" href="styles/style.css"> 
+</head>  
+
+<body>
+
+  <script src="app.js"></script>
+  <script src="modules/scripts/appModule.js"></script>
+  <script src="modules/scripts/ajaxCallingService.js"></script>
+  <script src="modules/scripts/datalistController.js"></script>
+  
+<div ng-controller="datalistCtrl">
+  <div ng-init="init()">
+     <div class="container">{{quote}}</div>
+  </div>
+</div>
+</body>
+</html>
